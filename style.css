@@ -1,0 +1,72 @@
+.c-img {
+
+  width: 500px;
+  filter: brightness(0.6);
+}
+
+.cousec {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+
+.rcard {
+  padding: 15px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.textcours {
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 19.5px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.forlinks {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.forlinks:hover {
+  color: #FF4500;
+}
+
+@media only screen and (max-width: 900px) {
+  .cousec {
+    padding: 0px;
+  }
+
+  .c-img {
+    height: 250px;
+    width: auto;
+  }
+
+  .textsec {
+    display: flex;
+    justify-content: left;
+  }
+
+  .imagesecl {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 10px;
+  }
+
+  .textcours {
+    font-size: 17px;
+  }
+
+  .upband {
+    display: none;
+  }
+}
